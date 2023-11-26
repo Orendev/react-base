@@ -34,3 +34,40 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+###
+
+prettier форматирование кода
+
+```
+$ npm i -D prettier
+```
+
+eslint проверка кода
+
+```
+$ npm i -D eslint eslint-config-prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser
+```
+
+stylelint для проверки таблиц стилей
+
+```
+npm i -D stylelint stylelint-config-standard-scss stylelint-config-prettier-scss
+npm i -D stylelint-config-property-sort-order-smacss
+```
+
+format css
+
+```
+npx stylelint "src/app/*.scss" --fix
+```
+
+sass
+
+```
+npm i -D sass
+```
+
+```
+npm i -D autoprefixer
+```
