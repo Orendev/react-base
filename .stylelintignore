@@ -1,3 +1,3 @@
-styles/globals.css
-styles/Home.module.css
+app/styles/globals.css
+app/styles/page.module.css
 coverage
